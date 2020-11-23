@@ -36,9 +36,8 @@ img {
 main {
     width: 1200px;
     }
-}
 
-/* Site header */
+/*================== Site header ==================*/
 .header-section {
     border-bottom: 1px solid #ECECEC;
 }
@@ -206,20 +205,16 @@ main {
 
 /* hero */
 .hero {
-    width: 1600px;
-    height: 600px;
-    text-align: center;
-}
-
-.overlay {
-    max-width: 1600px;
-    height: 600px;
-
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 
+    width: 1600px;
+    height: 600px;
+
+    text-align: center;
+    
     background-color: var(--title-text-color);
     background-image: linear-gradient(
         to right,
@@ -276,7 +271,7 @@ main {
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 
     color: var(--title-text-color);
 
@@ -302,6 +297,11 @@ main {
     background-color: #FFFFFF;
 }
 
+.work-section {
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
 .work-list {
     display: flex;
     justify-content: space-between;
@@ -311,8 +311,8 @@ main {
 }
 
 .work-list > .work-item {
-    margin-top: 50px;
-    margin-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .feature-list {
@@ -459,17 +459,8 @@ main {
     background-color: #2196f3;
 }
 
-.text-portfolio {
-    margin-top: 0;
-    margin-bottom: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-    font-size: 16px;
-    line-height: 1.87;
-}
-
 /*================== Regular customers ===================*/
+
 .section-customers-title {
     margin-top: 94px;
     margin-bottom: 0;
@@ -520,7 +511,25 @@ main {
     fill: #2196f3;
 }
 
-/* Portfolio.html */
+/*================= Portfolio.html ===============*/
+
+.portfolio-box {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-portfolio {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    font-size: 16px;
+    line-height: 1.87;
+}
+
 .portfolio-section {
     padding-top: 94px;
 }
@@ -590,10 +599,10 @@ main {
 }
 
 .title-portfolio {
-    margin-top: 24px;
+    margin-top: 0;
     margin-bottom: 4px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
 
     color: var(--title-text-color);
 
@@ -601,7 +610,7 @@ main {
     line-height: 2;
 }
 
-/* Footer */
+/*====================== Footer ==============*/
 .footer-container {
     display: flex;
 }
