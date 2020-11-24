@@ -14,8 +14,6 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    width: 1200px;
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -33,10 +31,6 @@ img {
     display: block; 
 }
 
-main {
-    width: 1200px;
-    }
-
 /*================== Site header ==================*/
 .header-section {
     border-bottom: 1px solid #ECECEC;
@@ -44,6 +38,7 @@ main {
 .container {
     margin-left: auto;
     margin-right: auto;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -201,8 +196,8 @@ main {
     fill:#757575;
 }
 
+/*======================= hero ======================= */
 
-/* hero */
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -254,8 +249,8 @@ main {
     line-height: 1.88;
 }
 
-/* Index.html */
-/* Section */
+/*======================= Index.html ==================*/
+/*======================= Section ==================*/
 
 .feature-section {    
     padding-top: 94px;
@@ -426,7 +421,7 @@ main {
     padding-left: 32px;
 }
 
-/*============= ICON ================*/
+/*================== ICON =====================*/
 
 .team-list-icon {
     display: flex;
