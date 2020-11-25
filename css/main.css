@@ -34,6 +34,7 @@ img {
 /*================== Site header ==================*/
 .header-section {
     border-bottom: 1px solid #ECECEC;
+    height: 80px;
 }
 .container {
     margin-left: auto;
@@ -46,6 +47,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    height: 80px;
 }
 
 .header-nav {
@@ -154,9 +156,7 @@ img {
 }
 
 .button:hover, 
-.button:focus, 
-.button-main:hover, 
-.button-main:focus {
+.button:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -204,7 +204,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
 
     text-align: center;
@@ -223,6 +223,7 @@ img {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    text-transform: uppercase;
 
     color: var(--white-color);
     letter-spacing: 0.06em;
@@ -240,8 +241,8 @@ img {
     min-width: 200px;
     border: 1px solid transparent;
 
-    color: var(--title-text-color);
-    background-color: var(--botton-bg-color);
+    color: var(--white-color);
+    background-color: var(--accent-color);
 
     font-family: inherit;
     font-weight: 700;
@@ -262,6 +263,7 @@ img {
     padding-bottom: 94px;
     background: #F5F4FA;
 }
+
 
 .section-title {
     margin-top: 0;
@@ -478,10 +480,15 @@ img {
 
 }
 
-.customers-iteam {
-    display: flex;
+.customers-iteam:not(:last-child){
+    margin-right: 30px;
+}
+
+.link-customers {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+   
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
@@ -489,19 +496,15 @@ img {
     height: 90px;
 }
 
-.customers-iteam:hover {
-    border: 1px solid #2196f3;
-}
-
-.customers-iteam:not(:last-child){
-    margin-right: 30px;
-}
-
 .customers-svg {
     fill: #afb1b8;
 }
 
-.customers-svg:hover {
+.link-customers:hover {
+    border: 1px solid #2196f3;
+}
+
+.link-customers:hover .customers-svg {
     fill: #2196f3;
 }
 
@@ -578,7 +581,7 @@ img {
 
 .button {
     display: block;
-    padding: 10px 32px;
+    padding: 6px 22px;
 
     border-radius: 4px;
     border: 1px solid transparent;
@@ -679,7 +682,7 @@ img {
 }
 
 .footer-icon-iteam:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .footer-icon-link {
